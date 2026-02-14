@@ -1,0 +1,148 @@
+.insp {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+    .story {
+        
+        min-width: 320px;
+
+        height: auto;
+
+
+
+
+        h2 {
+           
+            height: auto;
+            font-size: 60px;
+            color: #3e3e3e;
+        }
+
+        p {
+          
+            height: auto;
+            font-size: 20px;
+            color: #424242;
+        }
+
+
+        
+
+
+
+    }
+
+    .content {
+        width: 100%;
+        
+        height: auto;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+
+
+        @media screen and (max-width:1270px) {
+
+            flex-wrap: wrap;
+
+
+        }
+
+
+        .cont {
+           
+            img {
+                width: 576px;
+
+                height: 324px;
+            }
+
+
+
+            @media screen and (max-width:768px) {
+
+                >img {
+                    width: 310px;
+                }
+
+
+            }
+
+        }
+
+        .ent {
+
+            
+            min-width: 320px;
+         
+            height: auto;
+
+
+
+
+
+            h3 {
+                width: 533px;
+
+                
+                height: auto;
+                font-size: 30px;
+                color: #3e3e3e;
+
+            }
+
+            p {
+                width: 533px;
+
+               
+                height: auto;
+                font-size: 16px;
+                color: #424242;
+
+
+
+            }
+
+
+            @media screen and (max-width:546px) {
+
+                >h3 {
+                    width: 0;
+                    min-width: 320px;
+                }
+
+                >p {
+                    width: 0;
+                    min-width: 320px;
+                }
+
+            }
+
+            button {
+
+                border-radius: 10px;
+                width: 160px;
+                height: 52px;
+                background: #EA5540;
+                color: white;
+
+                &:hover {
+                    opacity: .56;
+                }
+            }
+        }
+
+    }
+
+
+
+
+}

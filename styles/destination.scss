@@ -1,0 +1,161 @@
+.destinations {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 20px;
+    padding: 60px;
+    background: rgb(239, 236, 227);
+    position: relative;
+    
+
+
+    @media screen and (max-width:1243px) {
+        flex-wrap: wrap;
+    
+          padding: 60px;
+         gap: 20px;
+        
+        
+            width: 100%;
+            
+      
+
+        >.box{
+            margin-top: 50px;
+            width: 65% !important;
+            
+            
+        }
+
+
+
+
+    }
+    
+
+    @media screen and (max-width:768px) {
+
+        >.box{
+            min-width: 320px;
+        }
+       
+      >.box>img{
+      min-width: 315px;
+        
+      }
+      >.box>p{
+        min-width: 315px;
+        height: auto;
+      }
+
+
+
+
+    }
+
+
+    h2 {
+        top: 8px;
+         left: 100px;
+      
+      
+        position: absolute;
+    
+        height: auto !important;
+        font-size: 53px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(59, 56, 56);
+
+
+        @media screen and (max-width:800px) {
+
+            left: 0;
+            top: 10px;
+           
+
+
+        }
+
+
+        
+        @media screen and (max-width:620px) {
+
+            left: 0;
+            top: 0;
+            min-width: 320px;
+            
+            
+          
+
+
+        }
+
+        @media screen and (max-width:360px) {
+
+            
+            left: 0;
+            top: 0;
+            right: 0;
+            margin-bottom: 10px;
+            font-size: 45px;
+        }
+
+    }
+
+
+
+
+
+    .box {
+        
+        height: 473px;
+      
+       border-radius: 20px;
+        margin-top: 150px;
+
+
+
+        img {
+            border-radius: 20px;
+            padding: 30px;
+            width:100%;
+            height: 50%;
+          margin: 0 0 4px;
+
+
+
+            @media screen and (max-width:1220px) 
+            {
+                padding:  30px;
+                height: 50%;
+                width: 95%;
+                
+            }
+        }
+
+        h3 {
+            width: max-content;
+            color: #EA5540;
+             padding:0 30px;
+            height: 36px;
+            margin: 0 0 4px;
+        }
+
+        p {
+            color: rgb(57, 56, 56);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 600;
+           height: auto;
+            padding:0 30px;
+
+        }
+
+
+    }
+
+
+
+}
