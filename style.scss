@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    // width: 100%;
+    background:  rgb(239, 236, 227);
+}
+// main>.destination,main>.insp,main>.stories,main>.last{
+//     padding: 80px
+// }
+
+
+@import "./styles/header.scss";
+@import "./styles/destination.scss";
+@import "./styles/stories.scss";
+@import "./styles/insp.scss";
+@import "./styles/footer.scss";
+@import "./styles/last.scss";
